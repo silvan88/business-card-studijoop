@@ -1,0 +1,35 @@
+{
+  "name": "business-card-studijoop",
+  "description": "Business card for Studijoop to get people connected and introduced to one another",
+  "main": "gulpfile.js",
+  "authors": [
+    "Silvan Snik"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Studijoop",
+    "music",
+    "producer",
+    "fun",
+    "creativity",
+    "recording"
+  ],
+  "homepage": "https://github.com/silvan88/business-card-studijoop",
+  "moduleType": [
+    "globals"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "1.4.9",
+    "angular-bootstrap": "^1.1.2",
+    "angular-ui-router": "^0.2.18",
+    "angular": "1.4.9"
+  }
+}
