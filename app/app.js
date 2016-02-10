@@ -1,14 +1,14 @@
-var studijoopApp = angular.module('studijoop', ['ngAnimate', 'ui.bootstrap', 'ui.router']);
+var myApp = angular.module('studijoop', ['ngAnimate', 'ui.bootstrap', 'ui.router']);
 
-studijoopApp.config(function($stateProvider, $urlRouterProvider) {
+myApp.config(function($stateProvider, $urlRouterProvider) {
     //
     // For any unmatched url, redirect to /state1
-    $urlRouterProvider.otherwise("/state1");
+    $urlRouterProvider.otherwise("/home");
     //
     // Now set up the states
     $stateProvider
-        .state('state1', {
-            url: "/state1",
-            templateUrl: "partials/home.html"
+        .state('home', {
+            url: "",
+            templateUrl: "partials/view.html"
         });
 });

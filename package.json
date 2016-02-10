@@ -29,6 +29,9 @@
   "homepage": "https://github.com/silvan88/business-card-studijoop",
   "devDependencies": {
     "bower": "^1.7.7",
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0"
   }
 }
